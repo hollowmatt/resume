@@ -1,3 +1,19 @@
+/*
+ * Matt's Colors: Monochromatic 2-colors
+ * -------------
+ * Base: 294860; (Use for H2 elements)
+ * Background: 637D92; (use for header)
+ * Shade: 3F5F77; (use for H3 elements - except header)
+ * Text: 072034; (use for p elements)
+ *
+ * Complementary Base: 956E3A;
+ * Complementary Background: E2C195; (Use for h1, skillsH3)
+ * Complementary 1/4 strength Background: FFF4E6; (use for alternating background color)
+ * Complementary Shade: B8915D;
+ * Complementary Text: 503107;
+ *
+ */
+
 * {
   padding:0;
   margin:0;
@@ -15,7 +31,7 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #E2C195;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +39,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #294860;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,7 +47,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #3F5F77;
   line-height: 22px;
 }
 
@@ -68,7 +84,7 @@ h2, h3, h4, h5 {
 
 p {
   font-size: 14px;
-  color: #333333;
+  color: #072034;
   line-height: 21px;
 }
 
@@ -82,13 +98,18 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #072034;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #E2C195;
   display: none;
+}
+
+.skills-text {
+  font-weight: normal;
+  color: #FFFFFF;
 }
 
 .orange {
@@ -110,13 +131,23 @@ a {
   clear:both;
 }
 
+.shaded-bg {
+  background-color: #FFF4E6;
+  padding-bottom: 10px;
+  clear:both;
+}
+
 .dark-gray {
   background-color: #4A4A4A;
 }
 
+.base {
+  background-color: #294860;
+}
+
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #637D92;
 }
 
 .flex-box {
@@ -165,6 +196,11 @@ img {
 span {
   padding: 5px;
 }
+
+.footer {
+  background-color: #637D92;
+}
+
 
 #letsConnect {
   text-align: center;

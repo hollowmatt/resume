@@ -261,6 +261,14 @@ var projects = {
 			"images" : ["https://www1.nookassets.com/npassets/assets/nook_press_logo-a6d25ba356b4b9c1c757ea5e0c271060.png"]
 		},
 		{
+			"title" : "NOOK.com UK",
+			"dates" : "Jan 2013 - Mar 2014",
+			"description" : "Deliver new features to the NOOK.com UK e-commerce platform, and build out the  " +
+											"architecture with a RESTful services API layer.  Architected and developed with Ruby,  " +
+											"Rails and Sinatra with and Adobe CQ CMS and Adobe Site Catalyst Analytics platform.",
+			"images" : ["https://www1.nookassets.com/assets/nook-logo-e2d01a4b676fb9c39ddb4cbb85d72261.png"]
+		},
+		{
 			"title" : "TBT and Sortation Architecture Modernization",
 			"dates" : "Jan 2010 - July 2012",
 			"description" : "Lead a group of Software Architects and Software Engineers to develop a modern " +
