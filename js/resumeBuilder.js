@@ -163,7 +163,7 @@ var education = {
     {
       "name" : "Athabasca University",
       "location" : "Athabasca",
-      "degree" : "MSc. Information Technology",
+      "degree" : "Information Technology",
       "majors" : ["Information Technology"],
       "graduation" : "2003",
       "url" : "http://www.athabascau.ca"
@@ -171,7 +171,7 @@ var education = {
     {
       "name" : "NAIT",
       "location" : "Edmonton",
-      "degree" : "BSc. CS",
+      "degree" : "Computer Systems Technology",
       "majors" : ["Computer Science"],
       "minors" : ["Business"],
       "graduation" : "1995",
@@ -180,9 +180,9 @@ var education = {
     {
       "name" : "RDC",
       "location" : "Red Deer",
-      "degree" : "BSc. Eng",
-      "majors" : ["Engineering"],
-      "minors" : ["Chemistry"],
+      "degree" : "BSc. General",
+      "majors" : ["Chemistry"],
+      "minors" : ["Physics"],
       "graduation" : "1992",
       "url" : "http://rdc.ab.ca/programs/engineering-bachelor-science"
     }

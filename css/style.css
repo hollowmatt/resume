@@ -253,6 +253,17 @@ span {
   #mapDiv > h2 {
     display: none;
   }
+
+  #letsConnect  {
+    display: none;
+  }
+
+  #skillsH3 {
+    display: block;
+  }
+  img {
+    display: none;
+  }
 }
 
 
